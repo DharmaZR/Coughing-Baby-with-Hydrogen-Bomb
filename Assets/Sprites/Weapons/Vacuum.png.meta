@@ -1,31 +1,31 @@
 fileFormatVersion: 2
-guid: e51406b7813dea24c8eaf375b834aea7
+guid: c02fec5381a637f48be29cc21a11fc26
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8091832202314141403
-    second: lg_front_walk_0
+      213: 9050546967464764145
+    second: Vacuum_0
   - first:
-      213: -8523847448653293994
-    second: lg_front_walk_1
+      213: -2097753911319562877
+    second: Vacuum_1
   - first:
-      213: 5425948217081320509
-    second: lg_front_walk_2
+      213: 6395254739122157680
+    second: Vacuum_2
   - first:
-      213: -2790030455345786323
-    second: lg_front_walk_3
+      213: 6165727900179575392
+    second: Vacuum_3
   - first:
-      213: 5973841225593292123
-    second: lg_front_walk_4
+      213: 1350895148159978020
+    second: Vacuum_4
   - first:
-      213: 5628744019392175771
-    second: lg_front_walk_5
+      213: 5341052600910526352
+    second: Vacuum_5
   - first:
-      213: -4874402799184028517
-    second: lg_front_walk_6
+      213: 3015199986871561236
+    second: Vacuum_6
   - first:
-      213: -9144968606588569920
-    second: lg_front_walk_7
+      213: 6831349656305029922
+    second: Vacuum_7
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -58,7 +58,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -72,7 +72,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 1
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -117,181 +117,194 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: lg_front_walk_0
+      name: Vacuum_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 512
-        width: 256
-        height: 256
+        x: 627
+        y: 2827
+        width: 203
+        height: 180
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bde40010486fb4070800000000000000
-      internalID: 8091832202314141403
+      spriteID: 1f2e9bad3800a9d70800000000000000
+      internalID: 9050546967464764145
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: lg_front_walk_1
+      name: Vacuum_1
       rect:
         serializedVersion: 2
-        x: 256
-        y: 512
-        width: 256
-        height: 256
+        x: 2547
+        y: 2831
+        width: 200
+        height: 176
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 656966f18e535b980800000000000000
-      internalID: -8523847448653293994
+      spriteID: 3857c999ee743e2e0800000000000000
+      internalID: -2097753911319562877
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: lg_front_walk_2
+      name: Vacuum_2
       rect:
         serializedVersion: 2
-        x: 512
-        y: 512
-        width: 256
-        height: 256
+        x: 4467
+        y: 2825
+        width: 211
+        height: 182
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d34dbc0d727dc4b40800000000000000
-      internalID: 5425948217081320509
+      spriteID: 078728d3d4280c850800000000000000
+      internalID: 6395254739122157680
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: lg_front_walk_3
+      name: Vacuum_3
       rect:
         serializedVersion: 2
-        x: 0
-        y: 256
-        width: 256
-        height: 256
+        x: 627
+        y: 1740
+        width: 218
+        height: 187
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d22d7944512d749d0800000000000000
-      internalID: -2790030455345786323
+      spriteID: 0623be79bd0119550800000000000000
+      internalID: 6165727900179575392
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: lg_front_walk_4
+      name: Vacuum_4
       rect:
         serializedVersion: 2
-        x: 256
-        y: 256
-        width: 256
-        height: 256
+        x: 2547
+        y: 1718
+        width: 249
+        height: 209
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b558214a1f857e250800000000000000
-      internalID: 5973841225593292123
+      spriteID: 42acfdadaf75fb210800000000000000
+      internalID: 1350895148159978020
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: lg_front_walk_5
+      name: Vacuum_5
       rect:
         serializedVersion: 2
-        x: 512
-        y: 256
-        width: 256
-        height: 256
+        x: 4467
+        y: 1730
+        width: 241
+        height: 197
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b9e997ffcd05d1e40800000000000000
-      internalID: 5628744019392175771
+      spriteID: 097b2fbda0b3f1a40800000000000000
+      internalID: 5341052600910526352
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: lg_front_walk_6
+      name: Vacuum_6
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 256
-        height: 256
+        x: 627
+        y: 673
+        width: 279
+        height: 174
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b9c5776da74aa5cb0800000000000000
-      internalID: -4874402799184028517
+      spriteID: 41ced30b96428d920800000000000000
+      internalID: 3015199986871561236
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: lg_front_walk_7
+      name: Vacuum_7
       rect:
         serializedVersion: 2
-        x: 256
-        y: 0
-        width: 256
-        height: 256
+        x: 2547
+        y: 673
+        width: 279
+        height: 174
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0c67032218b861180800000000000000
-      internalID: -9144968606588569920
+      spriteID: 2235c808154ddce50800000000000000
+      internalID: 6831349656305029922
       vertices: []
       indices: 
       edges: []
@@ -300,7 +313,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: bdf8625e306efe846909e0a7313d5f94
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -308,18 +321,16 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries:
-      - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":3.0,"y":3.0},"gridSpriteSize":{"x":256.0,"y":256.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+      entries: []
     nameFileIdTable:
-      lg_front_walk_0: 8091832202314141403
-      lg_front_walk_1: -8523847448653293994
-      lg_front_walk_2: 5425948217081320509
-      lg_front_walk_3: -2790030455345786323
-      lg_front_walk_4: 5973841225593292123
-      lg_front_walk_5: 5628744019392175771
-      lg_front_walk_6: -4874402799184028517
-      lg_front_walk_7: -9144968606588569920
+      Vacuum_0: 9050546967464764145
+      Vacuum_1: -2097753911319562877
+      Vacuum_2: 6395254739122157680
+      Vacuum_3: 6165727900179575392
+      Vacuum_4: 1350895148159978020
+      Vacuum_5: 5341052600910526352
+      Vacuum_6: 3015199986871561236
+      Vacuum_7: 6831349656305029922
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,0 +1,494 @@
+fileFormatVersion: 2
+guid: b4fa68abc5441f049bc2be32d2d67b27
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 660435380599016504
+    second: Icicles_0
+  - first:
+      213: -3739450203885112524
+    second: Icicles_1
+  - first:
+      213: 7916628643104606917
+    second: Icicles_2
+  - first:
+      213: 4413061630263272265
+    second: Icicles_3
+  - first:
+      213: -2676664524319555018
+    second: Icicles_4
+  - first:
+      213: -3657564543684263798
+    second: Icicles_5
+  - first:
+      213: -1660427153517501562
+    second: Icicles_6
+  - first:
+      213: 3113542231279621716
+    second: Icicles_7
+  - first:
+      213: 4021956549308272594
+    second: Icicles_8
+  - first:
+      213: 3231866339807691249
+    second: Icicles_9
+  - first:
+      213: 2289741490348919643
+    second: Icicles_10
+  - first:
+      213: -2371762229977937537
+    second: Icicles_11
+  - first:
+      213: -369066090011601944
+    second: Icicles_12
+  - first:
+      213: -2066731274320072974
+    second: Icicles_13
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Icicles_0
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 2517
+        width: 34
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83c44b1ca765a2900800000000000000
+      internalID: 660435380599016504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icicles_1
+      rect:
+        serializedVersion: 2
+        x: 1355
+        y: 2517
+        width: 63
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4337a2e1addca1cc0800000000000000
+      internalID: -3739450203885112524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icicles_2
+      rect:
+        serializedVersion: 2
+        x: 2635
+        y: 2517
+        width: 89
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5caceea8ec38ddd60800000000000000
+      internalID: 7916628643104606917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icicles_3
+      rect:
+        serializedVersion: 2
+        x: 3915
+        y: 2517
+        width: 129
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 943afbbdb285e3d30800000000000000
+      internalID: 4413061630263272265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icicles_4
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 1797
+        width: 172
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6320b05fbc39adad0800000000000000
+      internalID: -2676664524319555018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icicles_5
+      rect:
+        serializedVersion: 2
+        x: 1355
+        y: 1797
+        width: 172
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a80c2a61d68bd3dc0800000000000000
+      internalID: -3657564543684263798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icicles_6
+      rect:
+        serializedVersion: 2
+        x: 2635
+        y: 1797
+        width: 172
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6832d2b1d4af4f8e0800000000000000
+      internalID: -1660427153517501562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icicles_7
+      rect:
+        serializedVersion: 2
+        x: 3915
+        y: 1797
+        width: 173
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4565990c926853b20800000000000000
+      internalID: 3113542231279621716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icicles_8
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 1030
+        width: 210
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2df439f1c2cd0d730800000000000000
+      internalID: 4021956549308272594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icicles_9
+      rect:
+        serializedVersion: 2
+        x: 1336
+        y: 1012
+        width: 293
+        height: 217
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f187c91055e9dc20800000000000000
+      internalID: 3231866339807691249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icicles_10
+      rect:
+        serializedVersion: 2
+        x: 2617
+        y: 969
+        width: 390
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5b88bff0cbc6cf10800000000000000
+      internalID: 2289741490348919643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icicles_11
+      rect:
+        serializedVersion: 2
+        x: 3883
+        y: 931
+        width: 458
+        height: 339
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f790a7661dec51fd0800000000000000
+      internalID: -2371762229977937537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icicles_12
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 174
+        width: 526
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e35736b850d0eaf0800000000000000
+      internalID: -369066090011601944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Icicles_13
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 118
+        width: 649
+        height: 482
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fe26f32bde7153e0800000000000000
+      internalID: -2066731274320072974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Icicles_0: 660435380599016504
+      Icicles_1: -3739450203885112524
+      Icicles_10: 2289741490348919643
+      Icicles_11: -2371762229977937537
+      Icicles_12: -369066090011601944
+      Icicles_13: -2066731274320072974
+      Icicles_2: 7916628643104606917
+      Icicles_3: 4413061630263272265
+      Icicles_4: -2676664524319555018
+      Icicles_5: -3657564543684263798
+      Icicles_6: -1660427153517501562
+      Icicles_7: 3113542231279621716
+      Icicles_8: 4021956549308272594
+      Icicles_9: 3231866339807691249
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

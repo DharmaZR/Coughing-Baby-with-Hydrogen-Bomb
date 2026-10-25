@@ -1,31 +1,31 @@
 fileFormatVersion: 2
-guid: aad7406d8ab866241872eda89870960b
+guid: e51406b7813dea24c8eaf375b834aea7
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3861051256456743874
-    second: lg_back_walk_0
+      213: 8091832202314141403
+    second: lg_front_walk_0
   - first:
-      213: 2527107445703446929
-    second: lg_back_walk_1
+      213: -8523847448653293994
+    second: lg_front_walk_1
   - first:
-      213: -1106738170667287001
-    second: lg_back_walk_2
+      213: 5425948217081320509
+    second: lg_front_walk_2
   - first:
-      213: -2078628300862577460
-    second: lg_back_walk_3
+      213: -2790030455345786323
+    second: lg_front_walk_3
   - first:
-      213: -8508624154526143245
-    second: lg_back_walk_4
+      213: 5973841225593292123
+    second: lg_front_walk_4
   - first:
-      213: 6661679804482036295
-    second: lg_back_walk_5
+      213: 5628744019392175771
+    second: lg_front_walk_5
   - first:
-      213: -9085413452673670792
-    second: lg_back_walk_6
+      213: -4874402799184028517
+    second: lg_front_walk_6
   - first:
-      213: -1561746938714905459
-    second: lg_back_walk_7
+      213: -9144968606588569920
+    second: lg_front_walk_7
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -117,11 +117,24 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: lg_back_walk_0
+      name: lg_front_walk_0
       rect:
         serializedVersion: 2
         x: 0
@@ -136,14 +149,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2cb0ea839a5359530800000000000000
-      internalID: 3861051256456743874
+      spriteID: bde40010486fb4070800000000000000
+      internalID: 8091832202314141403
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: lg_back_walk_1
+      name: lg_front_walk_1
       rect:
         serializedVersion: 2
         x: 256
@@ -158,14 +171,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 191166a25d6121320800000000000000
-      internalID: 2527107445703446929
+      spriteID: 656966f18e535b980800000000000000
+      internalID: -8523847448653293994
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: lg_back_walk_2
+      name: lg_front_walk_2
       rect:
         serializedVersion: 2
         x: 512
@@ -180,14 +193,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 72eb20e5f7314a0f0800000000000000
-      internalID: -1106738170667287001
+      spriteID: d34dbc0d727dc4b40800000000000000
+      internalID: 5425948217081320509
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: lg_back_walk_3
+      name: lg_front_walk_3
       rect:
         serializedVersion: 2
         x: 0
@@ -202,14 +215,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cc4230bc29a3723e0800000000000000
-      internalID: -2078628300862577460
+      spriteID: d22d7944512d749d0800000000000000
+      internalID: -2790030455345786323
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: lg_back_walk_4
+      name: lg_front_walk_4
       rect:
         serializedVersion: 2
         x: 256
@@ -224,14 +237,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3fc292e796b4be980800000000000000
-      internalID: -8508624154526143245
+      spriteID: b558214a1f857e250800000000000000
+      internalID: 5973841225593292123
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: lg_back_walk_5
+      name: lg_front_walk_5
       rect:
         serializedVersion: 2
         x: 512
@@ -246,14 +259,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 742ab81bc7a037c50800000000000000
-      internalID: 6661679804482036295
+      spriteID: b9e997ffcd05d1e40800000000000000
+      internalID: 5628744019392175771
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: lg_back_walk_6
+      name: lg_front_walk_6
       rect:
         serializedVersion: 2
         x: 0
@@ -268,14 +281,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 871a4d3f9902ae180800000000000000
-      internalID: -9085413452673670792
+      spriteID: b9c5776da74aa5cb0800000000000000
+      internalID: -4874402799184028517
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: lg_back_walk_7
+      name: lg_front_walk_7
       rect:
         serializedVersion: 2
         x: 256
@@ -290,8 +303,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d8428d80f6f835ae0800000000000000
-      internalID: -1561746938714905459
+      spriteID: 0c67032218b861180800000000000000
+      internalID: -9144968606588569920
       vertices: []
       indices: 
       edges: []
@@ -300,7 +313,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 06bef259ef165fe4fa9fa2aff47c7313
+    spriteID: bdf8625e306efe846909e0a7313d5f94
     internalID: 0
     vertices: []
     indices: 
@@ -312,14 +325,14 @@ TextureImporter:
       - key: SpriteEditor.SliceSettings
         value: '{"sliceOnImport":false,"gridCellCount":{"x":3.0,"y":3.0},"gridSpriteSize":{"x":256.0,"y":256.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      lg_back_walk_0: 3861051256456743874
-      lg_back_walk_1: 2527107445703446929
-      lg_back_walk_2: -1106738170667287001
-      lg_back_walk_3: -2078628300862577460
-      lg_back_walk_4: -8508624154526143245
-      lg_back_walk_5: 6661679804482036295
-      lg_back_walk_6: -9085413452673670792
-      lg_back_walk_7: -1561746938714905459
+      lg_front_walk_0: 8091832202314141403
+      lg_front_walk_1: -8523847448653293994
+      lg_front_walk_2: 5425948217081320509
+      lg_front_walk_3: -2790030455345786323
+      lg_front_walk_4: 5973841225593292123
+      lg_front_walk_5: 5628744019392175771
+      lg_front_walk_6: -4874402799184028517
+      lg_front_walk_7: -9144968606588569920
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
