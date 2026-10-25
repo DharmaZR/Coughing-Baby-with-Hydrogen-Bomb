@@ -1,6 +1,7 @@
 using TMPro;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
@@ -16,16 +17,19 @@ public class PlayerController : MonoBehaviour
     public GameObject weapon;
     public float health = 3f;
     public TextMeshProUGUI healthText;
+    [SerializeField] private GameObject gameOver;
 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        Time.timeScale = 1f;
         rb = GetComponent<Rigidbody2D>();
         moveAction.Enable();
         spriteRenderer = GetComponent<SpriteRenderer>();
         animator = GetComponent<Animator>();
         healthText.text = "Health: " + health.ToString();
+        gameOver.SetActive(false);
     }
 
     // Update is called once per frame
@@ -95,7 +99,8 @@ public class PlayerController : MonoBehaviour
 
         if (health <= 0)
         {
-            Destroy(gameObject);
+            gameOver.SetActive(true);
+            Time.timeScale = 0f;
         }
     }
 }
