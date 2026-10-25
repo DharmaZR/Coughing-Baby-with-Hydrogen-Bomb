@@ -18,7 +18,6 @@ public class PlayerController : MonoBehaviour
     public float health = 3f;
     public TextMeshProUGUI healthText;
     [SerializeField] private GameObject gameOver;
-    [SerializeField] private string sceneToLoad;
 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
