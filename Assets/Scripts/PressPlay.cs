@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.InputSystem;
 
 public class PressPlay : MonoBehaviour
 {
@@ -7,8 +8,10 @@ public class PressPlay : MonoBehaviour
 
     [SerializeField] private string sceneToLoad;
 
-    private void OnMouseDown(){
-        SceneManager.LoadScene(sceneToLoad);
-        Debug.Log("Mouse Clicked");
+    void Update(){
+        if(Mouse.current.leftButton.wasPressedThisFrame){
+            SceneManager.LoadScene(sceneToLoad);
+
+        }
     }
 }
