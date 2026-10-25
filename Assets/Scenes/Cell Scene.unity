@@ -1295,6 +1295,7 @@ GameObject:
   - component: {fileID: 579141951}
   - component: {fileID: 579141955}
   - component: {fileID: 579141954}
+  - component: {fileID: 579141956}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1466,6 +1467,21 @@ MonoBehaviour:
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
   m_Version: 2
+--- !u!114 &579141956
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 579141950}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ead73573f9e9d44e96714a72f901c41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CameraZoom2D
+  zoomSpeed: 2
+  minZoom: 1
+  maxZoom: 8
 --- !u!1 &623039216
 GameObject:
   m_ObjectHideFlags: 0
@@ -4830,6 +4846,7 @@ GameObject:
   - component: {fileID: 2145414898}
   - component: {fileID: 2145414899}
   - component: {fileID: 2145414900}
+  - component: {fileID: 2145414901}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -4944,7 +4961,6 @@ MonoBehaviour:
   health: 3
   healthText: {fileID: 775320471}
   gameOver: {fileID: 1923505200}
-  sceneToLoad: Cell Scene
 --- !u!212 &2145414894
 SpriteRenderer:
   serializedVersion: 2
@@ -5151,6 +5167,21 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 256, y: 256}
   m_EdgeRadius: 0
+--- !u!114 &2145414901
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2145414892}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8de92f352defed4fbc2bbece3a1d969, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::WeaponShoot
+  bulletPrefab: {fileID: 2684943544387978579, guid: f7988fcd4ef771545b22de6bd63fc61f, type: 3}
+  firePoint: {fileID: 0}
+  weaponSpeed: 8
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
