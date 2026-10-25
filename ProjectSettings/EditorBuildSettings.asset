@@ -26,6 +26,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Earth Scene.unity
     guid: ef133dba6e7fd6a429aa7a3ff9e492c6
+  - enabled: 1
+    path: Assets/Scenes/Galaxy Scene.unity
+    guid: 8cc5a7a3fb435c541bc63bc18e377526
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
