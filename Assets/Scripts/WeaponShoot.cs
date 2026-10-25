@@ -1,5 +1,6 @@
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class WeaponShoot : MonoBehaviour
 {
@@ -12,10 +13,12 @@ public class WeaponShoot : MonoBehaviour
     [SerializeField] private TextMeshProUGUI cooldownText;
     private Camera mainCamera;
     [SerializeField] private SpriteRenderer spriteRenderer;
+    private string currentSceneName;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
         mainCamera = Camera.main;
+        currentSceneName =  SceneManager.GetActiveScene().name;
     }
 
     // Update is called once per frame
@@ -41,11 +44,14 @@ public class WeaponShoot : MonoBehaviour
         Vector3 mouseWorldPos = mainCamera.ScreenToWorldPoint(mouseScreenPos);
 
         if(mouseWorldPos.x < transform.position.x){
-            spriteRenderer.flipX = false;
-            spriteRenderer.flipY = true;
+            //spriteRenderer.flipX = true;
+            // spriteRenderer.flipY = true;
+            // if(currentSceneName == "HumanScene"){
+            //     spriteRenderer.flipY = false;
+            // }
         } else {
-            spriteRenderer.flipX = false;
-            spriteRenderer.flipY = false;
+            //spriteRenderer.flipX = false;
+            // spriteRenderer.flipY = false;
         }
         Vector3 origin = firePoint != null ? firePoint.position : transform.position;
 

@@ -5322,6 +5322,7 @@ MonoBehaviour:
   weaponSpeed: 8
   cooldown: 2
   cooldownText: {fileID: 295503438}
+  spriteRenderer: {fileID: 2842613025724577564, guid: f7988fcd4ef771545b22de6bd63fc61f, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

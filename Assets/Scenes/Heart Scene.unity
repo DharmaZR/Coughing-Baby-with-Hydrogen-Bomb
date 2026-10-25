@@ -5481,12 +5481,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 843613941}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b8de92f352defed4fbc2bbece3a1d969, type: 3}
+  m_Script: {fileID: 11500000, guid: 11ce8828bc7f35e4f84c0784d0232208, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::WeaponShoot
+  m_EditorClassIdentifier: Assembly-CSharp::Vacuum1
   bulletPrefab: {fileID: 2684943544387978579, guid: 0cecce4d8a0e21c49acef7b7cf28b120, type: 3}
   firePoint: {fileID: 0}
-  weaponSpeed: 8
+  weaponSpeed: 15
   cooldown: 2
   cooldownText: {fileID: 919339004}
   spriteRenderer: {fileID: 2842613025724577564, guid: 0cecce4d8a0e21c49acef7b7cf28b120, type: 3}
