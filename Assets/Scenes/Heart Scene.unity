@@ -2676,6 +2676,7 @@ MonoBehaviour:
   - {x: 28.4, y: -12, z: 0}
   - {x: -7.7, y: -12.2, z: 0}
   - {x: 31.8, y: 8.4, z: 0}
+  random: 0
 --- !u!4 &388803161
 Transform:
   m_ObjectHideFlags: 0
@@ -5196,6 +5197,7 @@ GameObject:
   - component: {fileID: 843613945}
   - component: {fileID: 843613944}
   - component: {fileID: 843613947}
+  - component: {fileID: 843613948}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -5444,7 +5446,7 @@ MonoBehaviour:
     m_Flags: 0
     m_Priority: 0
   moveSpeed: 2
-  weapon: {fileID: 6960476652804867755, guid: 27f4f93dbea7a3d47beca0dfdbbee9df, type: 3}
+  weapon: {fileID: 2684943544387978579, guid: 0cecce4d8a0e21c49acef7b7cf28b120, type: 3}
   health: 3
   healthText: {fileID: 1049920922}
   gameOver: {fileID: 2078774702}
@@ -5470,6 +5472,21 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &843613948
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 843613941}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8de92f352defed4fbc2bbece3a1d969, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::WeaponShoot
+  bulletPrefab: {fileID: 2684943544387978579, guid: 0cecce4d8a0e21c49acef7b7cf28b120, type: 3}
+  firePoint: {fileID: 0}
+  weaponSpeed: 8
 --- !u!1 &871993763
 GameObject:
   m_ObjectHideFlags: 0
@@ -12644,6 +12661,7 @@ GameObject:
   - component: {fileID: 1870041824}
   - component: {fileID: 1870041823}
   - component: {fileID: 1870041826}
+  - component: {fileID: 1870041827}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -12769,6 +12787,21 @@ MonoBehaviour:
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
   m_Version: 2
+--- !u!114 &1870041827
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1870041822}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ead73573f9e9d44e96714a72f901c41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CameraZoom2D
+  zoomSpeed: 2
+  minZoom: 1
+  maxZoom: 3
 --- !u!1 &1883003420
 GameObject:
   m_ObjectHideFlags: 0
