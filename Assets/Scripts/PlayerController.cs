@@ -1,3 +1,4 @@
+using System.Collections;
 using TMPro;
 using UnityEngine;
 using UnityEngine.InputSystem;
@@ -95,6 +96,7 @@ public class PlayerController : MonoBehaviour
     public void TakeDamage()
     {
         health--;
+        
         healthText.text = "Health: " + health.ToString();
 
         if (health <= 0)
@@ -102,5 +104,11 @@ public class PlayerController : MonoBehaviour
             gameOver.SetActive(true);
             Time.timeScale = 0f;
         }
+        StartCoroutine("Immunity");
+    }
+
+    private IEnumerable Immunity()
+    {
+        yield return new WaitForSeconds(0.5f);
     }
 }
