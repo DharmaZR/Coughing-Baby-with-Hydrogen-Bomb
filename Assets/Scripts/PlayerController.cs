@@ -71,26 +71,26 @@ public class PlayerController : MonoBehaviour
         {
             animator.SetBool("DownWalk", false);
         }   
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            if (animator.GetBool("DownWalk") == true)
-            {
-                Instantiate(weapon, transform.position, Quaternion.Euler(0, 0, 90));
-            }else if (animator.GetBool("UpWalk") == true)
-            {
-                Instantiate(weapon, transform.position, Quaternion.Euler(0, 0, -90));
-            }
-            else if (animator.GetBool("SideWalk") == true && spriteRenderer.flipX == false)
-            {
-                Instantiate(weapon, transform.position, Quaternion.Euler(0, 0, 0));
-            }
-            else if (animator.GetBool("SideWalk") == true && spriteRenderer.flipX == true)
-            {
-                Instantiate(weapon, transform.position, Quaternion.Euler(0, 0, 180));
-            }
-            else
-                Instantiate(weapon, transform.position, Quaternion.identity);
-        }
+        // if (Input.GetKeyDown(KeyCode.Space))
+        // {
+        //     if (animator.GetBool("DownWalk") == true)
+        //     {
+        //         Instantiate(weapon, transform.position, Quaternion.Euler(0, 0, 90));
+        //     }else if (animator.GetBool("UpWalk") == true)
+        //     {
+        //         Instantiate(weapon, transform.position, Quaternion.Euler(0, 0, -90));
+        //     }
+        //     else if (animator.GetBool("SideWalk") == true && spriteRenderer.flipX == false)
+        //     {
+        //         Instantiate(weapon, transform.position, Quaternion.Euler(0, 0, 0));
+        //     }
+        //     else if (animator.GetBool("SideWalk") == true && spriteRenderer.flipX == true)
+        //     {
+        //         Instantiate(weapon, transform.position, Quaternion.Euler(0, 0, 180));
+        //     }
+        //     else
+        //         Instantiate(weapon, transform.position, Quaternion.identity);
+        // }
     }
     public void TakeDamage()
     {
