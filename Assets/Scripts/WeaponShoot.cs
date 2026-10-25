@@ -1,11 +1,15 @@
 using UnityEngine;
+using TMPro;
 
 public class WeaponShoot : MonoBehaviour
 {
     [SerializeField] private GameObject bulletPrefab;
     [SerializeField] private Transform firePoint;
     [SerializeField] private float weaponSpeed = 15f;
+    [SerializeField] private float cooldown = 3f;
 
+    private float nextFireTime =0f;
+    [SerializeField] private TextMeshProUGUI cooldownText;
     private Camera mainCamera;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -16,8 +20,17 @@ public class WeaponShoot : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetMouseButtonDown(0)){
+        float timeRemaining = nextFireTime - Time.time;
+        if(cooldownText != null){
+            if(timeRemaining>0){
+                cooldownText.text = "Cooldown: " + timeRemaining.ToString("F1");
+            } else {
+                cooldownText.text = "Click to fire!";
+            }
+        }
+        if(Input.GetMouseButtonDown(0) && Time.time >= nextFireTime){
             Shoot();
+            nextFireTime = Time.time + cooldown;
         }
     }
 
