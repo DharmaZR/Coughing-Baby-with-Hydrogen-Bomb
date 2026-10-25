@@ -11,6 +11,7 @@ public class CholestrolSpawner : MonoBehaviour
     int enemyCounter = 0;
 
     public Vector3[] positions;
+    [SerializeField] private bool random;
 
     void Start()
     {
@@ -35,7 +36,12 @@ public class CholestrolSpawner : MonoBehaviour
         {
             if (enemyCounter < enemyCount)
             {
-                transform.position = positions[enemyCounter];
+                if(random){
+                    transform.position = positions[Random.Range(0,positions.Length)];
+                } else{
+                    transform.position = positions[enemyCounter];
+                }
+                
                 Instantiate(enemyPrefab, transform.position, Quaternion.identity);
                 enemyCounter++;
             }
