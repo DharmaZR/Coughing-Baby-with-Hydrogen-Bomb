@@ -601,7 +601,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -417.1667, y: -274}
+  m_AnchoredPosition: {x: -786, y: -489}
   m_SizeDelta: {x: 264.64, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &170729104
@@ -767,6 +767,7 @@ GameObject:
   - component: {fileID: 368352864}
   - component: {fileID: 368352863}
   - component: {fileID: 368352862}
+  - component: {fileID: 368352866}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -938,6 +939,21 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
+--- !u!114 &368352866
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 368352860}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1ead73573f9e9d44e96714a72f901c41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CameraZoom2D
+  zoomSpeed: 2
+  minZoom: 1
+  maxZoom: 10
 --- !u!1 &439586424
 GameObject:
   m_ObjectHideFlags: 0
@@ -3171,7 +3187,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::CholestrolSpawner
   enemyPrefab: {fileID: 8156043237621986549, guid: 745dd858769dd8248a9b20610adabe3f, type: 3}
   spawnInterval: 2
-  enemyCount: 30
+  enemyCount: 20
   positions:
   - {x: -1.6, y: 15.3, z: 0}
   - {x: 10.6, y: 16.6, z: 0}
