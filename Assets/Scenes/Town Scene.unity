@@ -119,53 +119,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &16751783
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 16751785}
-  - component: {fileID: 16751784}
-  m_Layer: 0
-  m_Name: EnemySpawner
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &16751784
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 16751783}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bce5641fed211742bdd7ce685cf35cc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: '::'
-  enemyPrefab: {fileID: 8156043237621986549, guid: 0f00c0b814c52cd459a8cf60b9a17025, type: 3}
-  spawnInterval: 2
-  enemyCount: 40
---- !u!4 &16751785
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 16751783}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -17.34, y: 8.2, z: 0}
-  m_LocalScale: {x: 0.68, y: 1.2625, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &17944190
 GameObject:
   m_ObjectHideFlags: 0
@@ -2272,6 +2225,60 @@ EdgeCollider2D:
   m_AdjacentEndPoint: {x: 0, y: 0}
   m_UseAdjacentStartPoint: 0
   m_UseAdjacentEndPoint: 0
+--- !u!1 &1043031734
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1043031736}
+  - component: {fileID: 1043031735}
+  m_Layer: 0
+  m_Name: Spawn Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1043031735
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1043031734}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3531fccf24026c4480084ae1f9d88ef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CholestrolSpawner
+  enemyPrefab: {fileID: 8156043237621986549, guid: 0f00c0b814c52cd459a8cf60b9a17025, type: 3}
+  spawnInterval: 2
+  enemyCount: 40
+  positions:
+  - {x: 18.4, y: 21.8, z: 0}
+  - {x: 50.6, y: 21.8, z: 0}
+  - {x: 53.2, y: -9.5, z: 0}
+  - {x: 44.9, y: -20.7, z: 0}
+  - {x: 15.3, y: -20.7, z: 0}
+  - {x: -13.5, y: -20.6, z: 0}
+--- !u!4 &1043031736
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1043031734}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 7.98217, y: 3.37192, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1050489678
 GameObject:
   m_ObjectHideFlags: 0
@@ -2722,6 +2729,63 @@ EdgeCollider2D:
   m_AdjacentEndPoint: {x: 0, y: 0}
   m_UseAdjacentStartPoint: 0
   m_UseAdjacentEndPoint: 0
+--- !u!1001 &1555733879
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6070799046867233720, guid: 0f00c0b814c52cd459a8cf60b9a17025, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -13.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6070799046867233720, guid: 0f00c0b814c52cd459a8cf60b9a17025, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -20.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6070799046867233720, guid: 0f00c0b814c52cd459a8cf60b9a17025, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6070799046867233720, guid: 0f00c0b814c52cd459a8cf60b9a17025, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6070799046867233720, guid: 0f00c0b814c52cd459a8cf60b9a17025, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6070799046867233720, guid: 0f00c0b814c52cd459a8cf60b9a17025, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6070799046867233720, guid: 0f00c0b814c52cd459a8cf60b9a17025, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6070799046867233720, guid: 0f00c0b814c52cd459a8cf60b9a17025, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6070799046867233720, guid: 0f00c0b814c52cd459a8cf60b9a17025, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6070799046867233720, guid: 0f00c0b814c52cd459a8cf60b9a17025, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8156043237621986549, guid: 0f00c0b814c52cd459a8cf60b9a17025, type: 3}
+      propertyPath: m_Name
+      value: Police Car
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0f00c0b814c52cd459a8cf60b9a17025, type: 3}
 --- !u!1 &1566023768
 GameObject:
   m_ObjectHideFlags: 0
@@ -3435,7 +3499,8 @@ SceneRoots:
   - {fileID: 289525225}
   - {fileID: 1839689303}
   - {fileID: 1623894404}
-  - {fileID: 16751785}
   - {fileID: 1718867522}
   - {fileID: 553591168}
   - {fileID: 470622857}
+  - {fileID: 1043031736}
+  - {fileID: 1555733879}
