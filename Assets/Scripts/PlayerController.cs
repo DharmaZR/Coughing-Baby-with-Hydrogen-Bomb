@@ -1,3 +1,4 @@
+using TMPro;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -13,6 +14,8 @@ public class PlayerController : MonoBehaviour
     private SpriteRenderer spriteRenderer;
 
     public GameObject weapon;
+    public float health = 3f;
+    public TextMeshProUGUI healthText;
 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -22,6 +25,7 @@ public class PlayerController : MonoBehaviour
         moveAction.Enable();
         spriteRenderer = GetComponent<SpriteRenderer>();
         animator = GetComponent<Animator>();
+        healthText.text = "Health: " + health.ToString();
     }
 
     // Update is called once per frame
@@ -74,14 +78,24 @@ public class PlayerController : MonoBehaviour
             }
             else if (animator.GetBool("SideWalk") == true && spriteRenderer.flipX == false)
             {
-                Instantiate(weapon, transform.position, Quaternion.Euler(0, 0, 180));
+                Instantiate(weapon, transform.position, Quaternion.Euler(0, 0, 0));
             }
             else if (animator.GetBool("SideWalk") == true && spriteRenderer.flipX == true)
             {
-                Instantiate(weapon, transform.position, Quaternion.Euler(0, 0, 0));
+                Instantiate(weapon, transform.position, Quaternion.Euler(0, 0, 180));
             }
             else
                 Instantiate(weapon, transform.position, Quaternion.identity);
+        }
+    }
+    public void TakeDamage()
+    {
+        health--;
+        healthText.text = "Health: " + health.ToString();
+
+        if (health <= 0)
+        {
+            Destroy(gameObject);
         }
     }
 }

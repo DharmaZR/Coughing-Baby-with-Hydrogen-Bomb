@@ -14,6 +14,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Cell Scene.unity
     guid: 2572022c01c2fe54d939def52ba9970f
+  - enabled: 1
+    path: Assets/Scenes/Heart Scene.unity
+    guid: 487798a96696be44c954d32e158142d2
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
