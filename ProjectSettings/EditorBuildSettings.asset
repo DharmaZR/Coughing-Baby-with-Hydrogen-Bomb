@@ -16,7 +16,16 @@ EditorBuildSettings:
     guid: 2572022c01c2fe54d939def52ba9970f
   - enabled: 1
     path: Assets/Scenes/Heart Scene.unity
-    guid: 487798a96696be44c954d32e158142d2
+    guid: 034f977df3f3eb0498005c087f1fbdbc
+  - enabled: 1
+    path: Assets/Scenes/Human Scene.unity
+    guid: 8343d784a8dc04141a2e300b068a9793
+  - enabled: 1
+    path: Assets/Scenes/Town Scene.unity
+    guid: 7d18a7cd7a7fa4b4ea15d9a82bcd5bb2
+  - enabled: 1
+    path: Assets/Scenes/Earth Scene.unity
+    guid: ef133dba6e7fd6a429aa7a3ff9e492c6
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

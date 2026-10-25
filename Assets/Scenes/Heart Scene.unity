@@ -2654,7 +2654,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: '::'
   enemyPrefab: {fileID: 7360627735330966211, guid: 65114c53c59a856479b2b1092fdcdd54, type: 3}
   spawnInterval: 0.5
-  enemyCount: 20
+  enemyCount: 10
   positions:
   - {x: -28, y: 21, z: 0}
   - {x: -18.8, y: 19.7, z: 0}
@@ -5489,6 +5489,7 @@ MonoBehaviour:
   weaponSpeed: 8
   cooldown: 2
   cooldownText: {fileID: 919339004}
+  spriteRenderer: {fileID: 2842613025724577564, guid: 0cecce4d8a0e21c49acef7b7cf28b120, type: 3}
 --- !u!1 &871993763
 GameObject:
   m_ObjectHideFlags: 0

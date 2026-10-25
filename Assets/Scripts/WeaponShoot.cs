@@ -11,6 +11,7 @@ public class WeaponShoot : MonoBehaviour
     private float nextFireTime =0f;
     [SerializeField] private TextMeshProUGUI cooldownText;
     private Camera mainCamera;
+    [SerializeField] private SpriteRenderer spriteRenderer;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -39,6 +40,13 @@ public class WeaponShoot : MonoBehaviour
         mouseScreenPos.z = Mathf.Abs(mainCamera.transform.position.z);
         Vector3 mouseWorldPos = mainCamera.ScreenToWorldPoint(mouseScreenPos);
 
+        if(mouseWorldPos.x < transform.position.x){
+            spriteRenderer.flipX = false;
+            spriteRenderer.flipY = true;
+        } else {
+            spriteRenderer.flipX = false;
+            spriteRenderer.flipY = false;
+        }
         Vector3 origin = firePoint != null ? firePoint.position : transform.position;
 
         Vector2 direction = ((Vector2)mouseWorldPos- (Vector2)origin).normalized;
