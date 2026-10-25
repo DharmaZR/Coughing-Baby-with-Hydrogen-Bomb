@@ -2,13 +2,19 @@ using UnityEngine;
 
 public class MagicAnimation : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+
+    private Animator projectileAnimation;
     void Start()
     {
+        projectileAnimation = GetComponent<Animator>();
+
+    }
+    void Awake()
+    {
+        projectileAnimation.enabled = true;
+
         
     }
-
-    // Update is called once per frame
     void Update()
     {
         
